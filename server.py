@@ -10,7 +10,7 @@ def log_print(st):
     print(st)
 
 
-logging.basicConfig(filename='server.log', encoding=, level=logging.INFO)
+logging.basicConfig(filename='server.log', encoding='utf-8', level=logging.INFO)
 
 log_print('Сервер запущен')
 port = ask_port()
